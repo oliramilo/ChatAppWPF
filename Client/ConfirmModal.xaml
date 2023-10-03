@@ -1,0 +1,16 @@
+﻿<Window x:Class="Client.ConfirmModal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="ConfirmModal" Height="350" Width="350">
+    <Grid>
+        <TextBlock x:Name="MessageDialogBox" Margin="58,60,58,203" HorizontalAlignment="Center" VerticalAlignment="Center">
+            Confirm?
+        </TextBlock>
+        <Button x:Name="ConfirmButton" Content="Join" Margin="72,165,72,110" Click="ConfirmButton_Click"/>
+        <Button x:Name="CancelButton" Content="Cancel" Margin="72,229,72,46" Click="CancelButton_Click"/>
+    </Grid>
+</Window>

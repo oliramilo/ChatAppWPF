@@ -1,0 +1,20 @@
+﻿<Window x:Class="Client.Modal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="Login Error" Height="250" Width="250">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="ErrorDesc" Margin="0,55,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="3">User name already logged in</TextBlock>
+        <Button Content="Close" Margin="60,102,60,78" Grid.ColumnSpan="4" Click="CloseModal_Click"></Button>
+
+    </Grid>
+</Window>

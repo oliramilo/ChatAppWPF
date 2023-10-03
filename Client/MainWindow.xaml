@@ -1,0 +1,21 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="ChatWPF" Height="550" Width="400">
+    <Grid>
+        <Button x:Name="LoginButton" Content="Login!" HorizontalAlignment="Center" Margin="0,272,0,0" VerticalAlignment="Top" Height="37" Width="166" Click="OnClickLogin" Cursor=""/>
+        <TextBox x:Name="LoginInput" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="White" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Disabled" SelectionOpacity="1" Margin="0,227,0,0">
+            <TextBox.Style>
+                <Style/>
+            </TextBox.Style>
+        </TextBox>
+        <Grid>
+            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        </Grid>
+        <TextBlock x:Name="LoginText" HorizontalAlignment="Left" Margin="117,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" IsEnabled="False"><Run Language="en-au" Text="Please enter a username"/></TextBlock>
+    </Grid>
+</Window>
