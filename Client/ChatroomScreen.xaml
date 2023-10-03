@@ -20,11 +20,11 @@
         </TextBox>
         <Button x:Name="SendButton" Content="Send"  Width="120" Height="25" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="320,0,0,40" Click="OnClickSend"/>
         <TextBox x:Name="MessageBox"  Width="300" Height="25" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,40" Text="Text message input"/>
-        <Button x:Name="SendFile" Content="Upload File"  Width="100" Height="25" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,255,40"  Click="OnClickUploadFile"/>
-        <ListBox x:Name="UsersInChat"  Width="150" Height="200" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,92,10,0"/>
+        <Button x:Name="SendFile" Content="Upload File"  Width="120" Height="25" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,235,40"  Click="OnClickUploadFile"/>
+        <ListBox x:Name="UsersInChat"  Width="150" Height="199" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,193,10,0"/>
 
-        <Button Content="Refresh" Width="100" Height="25" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0" Click="OnRefreshClick"/>
-        <Button Content="Logout" Width="100" Height="25" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,45,10,0" Click="OnLogoutClick"/>
+        <Button Content="Refresh" Width="100" Height="25" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,85,35,0" Click="OnRefreshClick"/>
+        <Button Content="Logout" Width="100" Height="25" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,120,35,0" Click="OnLogoutClick"/>
 
 
         <TextBox x:Name="NewRoomInput" Width="150" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,250,0,0"/>
@@ -32,8 +32,8 @@
 
         <ListBox x:Name="SharedFilesList" Width="150" Height="200" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,40"/>
 
-        <Button Content="Send Private" Width="120" Height="25" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="655,0,0,334" Click="OnPrivateMessageClick"/>
-        <Button x:Name="ViewPrivateMessages" Content="View Private"  Width="120" Height="25" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,25,273"  Click="OnClickViewPrivate"/>
+        <Button Content="Send Private" Width="120" Height="25" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="320,0,0,10" Click="OnPrivateMessageClick"/>
+        <Button x:Name="ViewPrivateMessages" Content="View Private"  Width="120" Height="25" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,235,10"  Click="OnClickViewPrivate"/>
         <Button x:Name="LeaveRoomButton" Content="Leave Room" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,280,0,0" Click="OnClickLeaveRoom"/>
     </Grid>
 </Window>
