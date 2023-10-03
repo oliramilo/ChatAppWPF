@@ -10,7 +10,9 @@ Tech used:
 
 
 ## Chat screen layout 2 clients side by side
+
 ###### User 1 (left) User2(right)
+
 ![appscreen](ChatAppWPF/../HomeScreen.png)
 
 
